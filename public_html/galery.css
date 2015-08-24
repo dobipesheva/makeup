@@ -1,0 +1,171 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14.08.2015, 16:58:12
+    Author     : dobipesheva
+*/
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/background.jpg);
+    font-size: 18px;
+    font-family: 'Marck Script';
+}
+nav > ul > li {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 20px;
+    padding-left: 150px;
+    padding-top: 25px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.Clear {
+	content: "";
+	clear: both;
+	display: block;
+	/* _zoom: 1 */
+}
+
+#wrapper {
+	width: 740px;
+	height: 675px;
+	margin: 0px auto;
+	margin-top: 20px;
+	border-radius: 30px;
+}
+
+#rotator {
+	width: 200%;
+}
+
+#leftArrow, #rightArrow {
+	width: 68px;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+
+button {
+	width: 45px;
+	height: 45px;
+	margin-top: 260px;
+	background: #ffffff;
+	border-radius: 25px;
+	border-style: none;
+	font-family: Tahoma;
+	font-size: 18px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:active {
+	background: #B0B0B0;
+	color: #CC0000;
+}
+
+#currentPicture {
+	width: 600px;
+	height: 500px;
+	margin-top: 15px;
+	border: 2px solid #ffffff;
+        border-radius: 30px 30px 30px 30px;
+	float: left;
+	background: url(img/1.jpg) no-repeat center;
+}
+
+#smallPicsContainer {
+	width: 700px;
+	height: 100px;
+	margin: 25px 20px 25px 20px;
+}
+
+.SmallPic {
+	display: inline-block;
+	float: left;
+	width: 55px;
+	height: 55px;
+	background: #787878;
+}
+
+.HoveredPic {
+	background: #ffffff;
+	cursor: pointer;
+}
+
+.ClickedPic {
+	background: #FF6633;
+}
+
+/* #1s {
+	background-image: url(img/1s.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#2s {
+	background-image: url(img/2s.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#3s {
+	background-image: url(img/3s.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#4s {
+	background-image: url('img/4s.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#5s {
+	background-image: url(img/5s.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#6s {
+	background-image: url(img/6s.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#7s {
+	background-image: url(img/7s.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#8s {
+	background-image: url(img/8s.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#9s {
+	background-image: url(img/9s.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#10s {
+	background-image: url(img/10s.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#11s {
+	background-image: url(img/11s.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#12s {
+	background-image: url(img/12s.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}*/
